@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/registro">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.proyectofinalgrupo4.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.proyectofinalgrupo4.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.proyectofinalgrupo4.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/seguimiento_entrega"
+        android:name="com.example.proyectofinalgrupo4.ui.seguimientoentrega.seguimiento_entrega"
+        android:label="fragment_seguimiento_entrega"
+        tools:layout="@layout/fragment_seguimiento_entrega" />
+    <fragment
+        android:id="@+id/login"
+        android:name="com.example.proyectofinalgrupo4.ui.pantallainicio.login"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" />
+    <fragment
+        android:id="@+id/registro"
+        android:name="com.example.proyectofinalgrupo4.ui.pantallainicio.registro"
+        android:label="fragment_registro"
+        tools:layout="@layout/fragment_registro" />
+    <fragment
+        android:id="@+id/eleccioncomida"
+        android:name="com.example.proyectofinalgrupo4.ui.pantallainicio.eleccioncomida"
+        android:label="fragment_eleccioncomida"
+        tools:layout="@layout/fragment_eleccioncomida" />
+    <fragment
+        android:id="@+id/localesdisponibles"
+        android:name="com.example.proyectofinalgrupo4.ui.locales.localesdisponibles"
+        android:label="fragment_localesdisponibles"
+        tools:layout="@layout/fragment_localesdisponibles" />
+</navigation>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout4"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.pantallainicio.eleccioncomida" >
+
+    <RelativeLayout
+        android:layout_width="332dp"
+        android:layout_height="334dp"
+        android:layout_marginTop="124dp"
+        android:layout_marginEnd="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:layout_width="289dp"
+            android:layout_height="179dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="11dp"
+            android:layout_marginBottom="140dp"
+            android:background="@drawable/ceviche">
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="202dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="119dp"
+            android:layout_marginBottom="81dp"
+            android:text="Ceviche"
+            android:textColor="#100B0B"
+            android:textSize="34sp" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="177dp"
+            android:layout_marginBottom="24dp"
+            android:text="Nombre del restaurante" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="32dp"
+        android:text="Volver"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RelativeLayout
+        android:layout_width="91dp"
+        android:layout_height="74dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/logofinal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="332dp"
+        android:layout_height="161dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="132dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="194dp"
+            android:layout_marginBottom="117dp"
+            android:text="Cantidad"
+            android:textColor="#100B0B"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="124dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="199dp"
+            android:layout_marginBottom="17dp"
+            android:text="Extras"
+            android:textColor="#100B0B"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="46dp"
+            android:layout_marginBottom="101dp"
+            android:text="+ / -" />
+
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="45dp"
+            android:layout_marginBottom="14dp"
+            android:text="Detalle" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="68dp"
+        android:layout_marginBottom="24dp"
+        android:text="Añadir pedido S./17.00"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
